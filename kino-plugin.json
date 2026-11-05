@@ -1,0 +1,81 @@
+{
+  "id": "kaiju-no8",
+  "name": "Kaiju No. 8",
+  "version": "1.0.1",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "description": "Tema inspirado en Kaiju No. 8: noche urbana, brillo kaiju verde azulado y acentos naranjas de la Fuerza de Defensa.",
+  "author": "Maikel",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "appThemes": [
+    {
+      "id": "kaiju_no8",
+      "name": {
+        "es": "Kaiju No. 8",
+        "en": "Kaiju No. 8"
+      },
+      "colors": {
+        "accent": "#2EE6C5",
+        "onAccent": "#03140F",
+        "surface": "#0B0F14",
+        "surfaceHigh": "#141B22",
+        "textPrimary": "#E8F1F2",
+        "textSecondary": "#8A9BA8",
+        "focus": "#FF6A1A",
+        "onFocus": "#1A0A00",
+        "outline": "#3A4F5E",
+        "railPanel": "#070A0E",
+        "placeholderTop": "#141B22",
+        "placeholderBottom": "#0B0F14",
+        "success": "#2DE09B",
+        "warning": "#FFB32C",
+        "error": "#E63946",
+        "favorite": "#FF6A1A",
+        "scrim": "#05080B"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#070A0E",
+          "#0B0F14",
+          "#141B22"
+        ],
+        "angle": 165
+      },
+      "shape": {
+        "cardRadius": 10,
+        "channelRadius": 12,
+        "buttonRadius": 20,
+        "chipRadius": 4,
+        "dialogRadius": 18,
+        "inputRadius": 8
+      },
+      "typography": {
+        "scale": 1.0,
+        "titleScale": 1.06,
+        "bodyScale": 1.0
+      },
+      "elevation": {
+        "cardShadow": 0.45,
+        "dialogShadow": 0.5,
+        "heroScrim": 0.85
+      },
+      "motion": {
+        "focusZoom": 1.06,
+        "crossfadeMs": 180,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.05,
+        "playButtonScale": 1.18,
+        "seekBarScale": 1.15,
+        "labelScale": 1.0,
+        "buttonShape": "circle"
+      },
+      "experience": "full"
+    }
+  ]
+}
